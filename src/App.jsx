@@ -14,17 +14,17 @@ function App() {
   return (
     <div className="container">
       <div className="navbar">
-      <NavLink to="/Vite-portfolio">Home</NavLink>
-      <NavLink to="/Vite-portfolio/about">About</NavLink>
-      <NavLink to="/Vite-portfolio/jobs">Jobs</NavLink>
-      <NavLink to="/Vite-portfolio/contact">Contact</NavLink>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/jobs">Jobs</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
       </div>
 
       <Routes>
-        <Route path="/Vite-portfolio" element={<Home />} />
-        <Route path="/Vite-portfolio/about" element={<About />} />
-        <Route path="/Vite-portfolio/jobs" element={<Jobs />} />
-        <Route path="/Vite-portfolio/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/jobs" element={<Jobs />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   )
