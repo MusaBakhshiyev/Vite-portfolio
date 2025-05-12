@@ -1,0 +1,14 @@
+.jobs{
+    background-color: black;
+    width: 60%;
+    color:white;
+    margin:50px auto;
+    padding:20px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.jobs p{
+    font-size: 32px;
+}
